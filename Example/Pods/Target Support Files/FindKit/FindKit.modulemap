@@ -1,0 +1,6 @@
+framework module FindKit {
+  umbrella header "FindKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

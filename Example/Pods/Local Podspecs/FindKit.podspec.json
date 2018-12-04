@@ -1,0 +1,25 @@
+{
+  "name": "FindKit",
+  "version": "0.0.1",
+  "license": "MIT",
+  "summary": "FindKit is a framework and sample app that implements Full-Text Search of source code with Swift using Realm",
+  "homepage": "https://github.com/watanabetoshinori/FindKit",
+  "authors": "Watanabe Toshinori",
+  "source": {
+    "git": "https://github.com/watanabetoshinori/FindKit.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "Sources/**/*.{h,swift}",
+  "resources": [
+    "Sources/**/*.{xib,storyboard}",
+    "Sources/**/*.xcassets"
+  ],
+  "dependencies": {
+    "RealmSwift": [
+
+    ]
+  }
+}
